@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import navLinks from "../../Constant/index";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import { motion } from 'framer-motion';
 import {
     AppBar,
     Box,
@@ -21,7 +22,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 
+import { useCart } from '../../Contexts/CartContext';
+
 const NavbarContainer = () => {
+    const { isCartBouncing, totalItemsCount } = useCart();
     const [mobileOpen, setMobileOpen] = useState(false);
 
     const handleDrawerToggle = () => {
@@ -66,16 +70,28 @@ const NavbarContainer = () => {
                 }}>
 
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flex: 1 }}>
-                        <IconButton
-                            component={Link}
-                            to="/cart"
-                            sx={{ color: 'text.primary' }}
-                            aria-label="cart"
+                        <motion.div
+                            animate={
+                                isCartBouncing
+                                    ? {
+                                        scale: [1, 1.4, 0.9, 1.25, 1],
+                                        rotate: [0, -12, 12, -8, 0],
+                                    }
+                                    : { scale: 1, rotate: 0 }
+                            }
+                            transition={{ duration: 0.5, ease: "easeInOut" }}
                         >
-                            <Badge badgeContent={0} color="primary">
-                                <ShoppingBagOutlinedIcon fontSize="medium" />
-                            </Badge>
-                        </IconButton>
+                            <IconButton
+                                component={Link}
+                                to="/cart"
+                                sx={{ color: 'text.primary' }}
+                                aria-label="cart"
+                            >
+                                <Badge badgeContent={totalItemsCount} color="primary">
+                                    <ShoppingBagOutlinedIcon fontSize="medium" />
+                                </Badge>
+                            </IconButton>
+                        </motion.div>
 
                         <Typography
                             variant="h5"
@@ -94,10 +110,10 @@ const NavbarContainer = () => {
                         </Typography>
                     </Box>
 
-                    <Box sx={{ 
+                    <Box sx={{
                         display: { xs: 'flex', lg: 'none' },
-                        justifyContent: 'center', 
-                        flex: 1 
+                        justifyContent: 'center',
+                        flex: 1
                     }}>
                         <Typography
                             variant="h5"

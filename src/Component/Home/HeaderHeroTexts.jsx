@@ -10,7 +10,7 @@ const HeaderHeroTexts = () => {
             height: '85vh',
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'space-between',
+            justifyContent: { xs: "flex-start", sm: "flex-start", md: "flex-start", lg: 'space-between' },
             py: 4,
             overflow: 'hidden'
         }}>
@@ -41,7 +41,7 @@ const HeaderHeroTexts = () => {
                 zIndex: "1"
             }}>
                 <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4 }} sx={{
-                    order: { xs: 3, md: 1 }
+                    order: { xs: 3, sm: 1, md: 1 }
                 }}>
                     <Container>
                         <Typography variant="body1" sx={{
@@ -70,7 +70,7 @@ const HeaderHeroTexts = () => {
                 <Grid size={{ lg: 4 }} sx={{ display: { xs: 'none', lg: 'block' }, order: 2 }} />
                 <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4 }} sx={{
                     textAlign: "right",
-                    order: { xs: 1, md: 3 }
+                    order: { xs: 1, sm: 3, md: 3 }
                 }}>
                     <Container>
                         <Typography variant="body2" sx={{ color: 'text.primary', mb: 1, textTransform: 'uppercase', letterSpacing: 1 }}>
