@@ -17,14 +17,14 @@ const FoodsContainer = () => {
 
 
             {/* برگ ها */}
-            <Box component="img" src='/images/vibrant-green-leaf.png' sx={{
+            <Box component="img" src='images/vibrant-green-leaf.png' sx={{
                 transform: "scaleY(-1)",
                 position: "absolute",
                 top: "-25%",
                 right: 0,
                 width: { md: "250px", lg: "300px" },
                 display: { xs: "none", sm: "none", md: "block", lg: "block" },
-            }} /><Box component="img" src='/images/vibrant-green-right.png' sx={{
+            }} /><Box component="img" src='images/vibrant-green-right.png' sx={{
                 transform: "rotate(-10deg)",
                 position: "absolute",
                 bottom: -150,

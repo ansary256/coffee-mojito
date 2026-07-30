@@ -75,7 +75,7 @@ const ArtSectionHomePage = () => {
                             position: "relative",
                             top: "-45%",
                         }}
-                        src='/images/GlassArtPhoto.webp'
+                        src='images/GlassArtPhoto.webp'
                     />
                 </Grid>
                 <Grid size={{ xs: 12, lg: 3 }} sx={{
@@ -133,7 +133,7 @@ const ArtSectionHomePage = () => {
                             top: 0,
                             rotate: "15deg"
                         }}
-                        src='/images/GlassLeftArtSection.webp'
+                        src='images/GlassLeftArtSection.webp'
                     />
                 </Grid>
                 <Grid size={{ xs: 12, lg: 8 }}>
@@ -144,7 +144,7 @@ const ArtSectionHomePage = () => {
                             borderRadius: "20px",
                             boxShadow: "10px 20px 30px 0 rgba(0, 0, 0,1)"
                         }}
-                        src='/images/GlassArtInnerPhoto.webp'
+                        src='images/GlassArtInnerPhoto.webp'
                     />
                 </Grid>
                 <Grid size={{ lg: 2 }} sx={{
@@ -158,7 +158,7 @@ const ArtSectionHomePage = () => {
                             position: "relative",
                             top: "60%",
                         }}
-                        src='/images/GlassRightArtSection.webp'
+                        src='images/GlassRightArtSection.webp'
                     />
                 </Grid>
                 <Grid

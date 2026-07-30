@@ -179,7 +179,7 @@ const HeroSectionHomePage = () => {
                 {/* برگ سمت راست */}
                 <Box
                     component="img"
-                    src="/images/vibrant-green-leaf.png"
+                    src="images/vibrant-green-leaf.png"
                     className="leaf-right"
                     sx={{
                         position: 'absolute', top: { xs: "0%", sm: "-3%", md: "-5%", lg: "0%" }, right: '0%',
@@ -190,7 +190,7 @@ const HeroSectionHomePage = () => {
                 {/* برگ سمت چپ */}
                 <Box
                     component="img"
-                    src="/images/vibrant-green-right.png"
+                    src="images/vibrant-green-right.png"
                     className="leaf-left"
                     sx={{
                         position: 'absolute', top: { xs: "7%", sm: "10%", md: "12%", lg: "20%" }, left: '0%',
@@ -233,7 +233,7 @@ const HeroSectionHomePage = () => {
                         left: "50%",
                         transform: "translateX(-50%)",
                         zIndex: "-1"
-                    }} src='/images/Steel-Ice.png' />
+                    }} src='images/Steel-Ice.png' />
                 </Box>
             </Box>
 

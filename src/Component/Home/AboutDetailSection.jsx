@@ -44,8 +44,6 @@ const AboutDetailSection = () => {
                             هر کوکتلی که سرو می‌کنیم، بازتابی از وسواس ما نسبت به جزئیات است؛ از نخستین مرحله‌ی له کردن و ترکیب مواد گرفته تا آخرین مرحله‌ی تزئین. همین دقت و توجه است که یک نوشیدنی ساده را به تجربه‌ای واقعاً به‌یادماندنی بدل می‌کند
                         </Typography>
                     </Box>
-
-                    {/* 🎯 کانتینر اصلی بخش امتیازات (جهت راست‌چین کردن کامل مجموعه) */}
                     <Box
                         sx={{
                             display: 'flex',
@@ -81,9 +79,9 @@ const AboutDetailSection = () => {
                                     },
                                 }}
                             >
-                                <Avatar alt="User 1" src="/images/userCommentHomePage1.jpg" />
-                                <Avatar alt="User 2" src="/images/userCommentHomePage2.jpg" />
-                                <Avatar alt="User 3" src="/images/userCommentHomePage3.jpg" />
+                                <Avatar alt="User 1" src="images/userCommentHomePage1.jpg" />
+                                <Avatar alt="User 2" src="images/userCommentHomePage2.jpg" />
+                                <Avatar alt="User 3" src="images/userCommentHomePage3.jpg" />
                                 <Avatar
                                     sx={{
                                         backgroundColor: '#8C90FC',

@@ -17,25 +17,25 @@ const timelineDataRight = [
         id: 1,
         position: 'مدیرعامل',
         description: 'رهبری تیم و تدوین استراتژی‌های کلان کافه برای خلق تجربه‌ای متمایز و مدیریت بهینه منابع.',
-        image: '/images/ManagerCoffee.webp',
+        image: 'images/ManagerCoffee.webp',
     },
     {
         id: 2,
         position: 'سالن کار',
         description: 'ایجاد اتمسفری گرم و صمیمی، پذیرایی حرفه‌ای از میهمانان و تضمین نظم و نظافت فضای سالن کافه.',
-        image: '/images/GarsoneCoffee.webp',
+        image: 'images/GarsoneCoffee.webp',
     },
     {
         id: 3,
         position: 'آشپز',
         description: 'طراحی منوی غذایی متنوع، طبخ انواع صبحانه و خوراک‌های باکیفیت و تازه، با تمرکز بر طعم و هنر چیدمان.',
-        image: '/images/CHeifCoffee.webp',
+        image: 'images/CHeifCoffee.webp',
     },
     {
         id: 4,
         position: 'باریستا',
         description: 'متخصص عصاره‌گیری قهوه‌های تخصصی، سرو انواع نوشیدنی‌های گرم و سرد با مهارت بالا و خلق لاته آرت‌های جذاب.',
-        image: '/images/BaristaCoffee.webp',
+        image: 'images/BaristaCoffee.webp',
     }
 ];
 
@@ -44,19 +44,19 @@ const timelineDataLeft = [
         id: 1,
         position: 'مدیر داخلی',
         description: 'هماهنگی امور روزمره کافه، نظارت بر عملکرد پرسنل و اطمینان از جریان روان خدمات‌رسانی به مشتریان.',
-        image: '/images/InternalManager.webp',
+        image: 'images/InternalManager.webp',
     },
     {
         id: 2,
         position: 'شف قنادی (پسریا)',
         description: 'پخت روزانه انواع کیک، دسر و شیرینی‌های تازه و پرطرفدار کافه‌ای با دستورالعمل‌های اختصاصی.',
-        image: '/images/PastryChef.webp',
+        image: 'images/PastryChef.webp',
     },
     {
         id: 3,
         position: 'صندوق‌دار',
         description: 'مدیریت دقیق تراکنش‌های مالی، ثبت سریع سفارش‌ها و ارائه پاسخگویی محترمانه و دقیق به مشتریان.',
-        image: '/images/CashierCoffee.webp',
+        image: 'images/CashierCoffee.webp',
     },
 ];
 
