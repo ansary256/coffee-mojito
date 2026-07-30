@@ -18,7 +18,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 const App = () => {
     return (
         <CartProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/coffee-mojito">
                 <ScrollToTop />
                 <NavbarContainer />
                 <Routes>
