@@ -25,7 +25,7 @@ const HeaderHeroTexts = () => {
                             fontSize: { xs: '3.5rem', sm: '7rem', md: '11rem' },
                             fontWeight: 900,
                             letterSpacing: '0.05em',
-                            color: 'transparent',
+                            color: 'text.primary',
                             backgroundImage: 'linear-gradient(180deg, #FFFFFF 0%, #7E7E7E 100%)',
                             backgroundClip: 'text',
                             textTransform: 'uppercase',

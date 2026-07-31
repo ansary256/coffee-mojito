@@ -147,6 +147,7 @@ const HeroSectionHomePage = () => {
         // موهیتو
         gsap.to(".mojito-box", {
             y: "90vh",
+            opacity: 1,
             scrollTrigger: {
                 trigger: heroRef.current,
                 start: "top top",
@@ -183,7 +184,7 @@ const HeroSectionHomePage = () => {
                     className="leaf-right"
                     sx={{
                         position: 'absolute', top: { xs: "0%", sm: "-3%", md: "-5%", lg: "0%" },
-                         right: '0%',
+                        right: '0%',
                         width: { xs: "40px", sm: '80px', md: '150px' }
                     }}
                 />
