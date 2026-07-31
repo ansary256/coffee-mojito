@@ -1,4 +1,4 @@
-import { Button, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 
 
 
@@ -10,7 +10,7 @@ const HeaderHeroTexts = () => {
             height: '85vh',
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: { xs: "flex-start", sm: "flex-start", md: "flex-start", lg: 'space-between' },
+            justifyContent: 'space-between',
             py: 4,
             overflow: 'hidden'
         }}>
@@ -29,10 +29,10 @@ const HeaderHeroTexts = () => {
                             backgroundImage: 'linear-gradient(180deg, #FFFFFF 0%, #7E7E7E 100%)',
                             backgroundClip: 'text',
                             textTransform: 'uppercase',
-                            fontFamily: '"Modern Negra", sans-serif'
+                            fontFamily: 'ModernNegra',
                         }}
                     >
-                        MOJITO
+                        mojito
                     </Typography>
                 </Grid>
             </Grid>

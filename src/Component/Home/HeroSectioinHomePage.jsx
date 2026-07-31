@@ -182,7 +182,8 @@ const HeroSectionHomePage = () => {
                     src="images/vibrant-green-leaf.png"
                     className="leaf-right"
                     sx={{
-                        position: 'absolute', top: { xs: "0%", sm: "-3%", md: "-5%", lg: "0%" }, right: '0%',
+                        position: 'absolute', top: { xs: "0%", sm: "-3%", md: "-5%", lg: "0%" },
+                         right: '0%',
                         width: { xs: "40px", sm: '80px', md: '150px' }
                     }}
                 />
@@ -203,6 +204,7 @@ const HeroSectionHomePage = () => {
                 <Box className='mojito-box' component="div" sx={{
                     width: "100%",
                     height: "100vh",
+                    opacity: { lg: "1", xs: "0.2", sm: "0.2", md: "0.2" }
                 }}>
                     <Box className='Umbrella' component="div" sx={{
                         width: "200px",

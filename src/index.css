@@ -1,5 +1,12 @@
 @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
 
+@font-face {
+    font-family: 'ModernNegra';
+    src: url('src/assets/fonts/ModernNegraDemo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
