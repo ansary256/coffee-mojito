@@ -11,6 +11,8 @@ import ScrollToTop from "./ScrollToTop";
 import DrinksContainer from "./Component/Drinks/DrinksContainer";
 import { CartProvider } from "./Contexts/CartContext";
 import FoodsContainer from "./Component/Foods/FoodsContainer";
+import EnterContainer from "./Component/Login/EnterContainer";
+import CartPage from "./Component/Cart/CartPage";
 
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -22,6 +24,7 @@ const App = () => {
                 <ScrollToTop />
                 <NavbarContainer />
                 <Routes>
+
                     <Route path="/" element={<Navigate to="/Home" replace />} />
 
                     <Route path="/Home" element={<HomeContainer />} />
@@ -33,6 +36,11 @@ const App = () => {
                     <Route path="/cocktails" element={<DrinksContainer />} />
 
                     <Route path="/Foods" element={<FoodsContainer />} />
+
+                    <Route path="/Enter" element={<EnterContainer />} />
+
+                    <Route path="/cart" element={<CartPage />} />
+
                 </Routes>
             </BrowserRouter>
         </CartProvider>

@@ -6,9 +6,11 @@ const theme = createTheme({
     background: {
       default: 'rgba(0, 0, 0, 0.92)',
       paper: '#121212',
+      textClick:"#000035"
     },
     primary: {
       main: '#e7d393',
+      main2: '#927a2a',
     },
     text: {
       primary: '#F5F2EB',

@@ -1,16 +1,39 @@
-# React + Vite
+Mojito Cafe & Restaurant Web Application
+This project is a modern and responsive web application designed for "Mojito" Cafe & Restaurant. The system allows dine-in customers to scan a table QR code, access the digital menu, customize their order, add items to the shopping cart, and complete the checkout process seamlessly.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Key Features
+1. Digital Menu & Ordering System
+Food & Drink Categorization: Full menu listing with detailed descriptions, prices, and high-quality imagery.
 
-Currently, two official plugins are available:
+Home Page: Features interactive GSAP animations highlighting top picks, daily specials, and featured restaurant deals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Informational Pages: Dedicated "About Us" and "Contact Us" pages providing location details and restaurant story.
 
-## React Compiler
+2. Cart & Checkout Page
+Smart Shopping Cart Table: Complete order management with real-time quantity adjustments and item removal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Fully Responsive Layout: Displays as a standard multi-column table on desktop screens and transforms into compact card stacks on mobile devices.
 
-## Expanding the Oxlint configuration
+Full RTL Support: Native Right-to-Left layout optimization tailored for Persian language users.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Live Receipt Calculation: Real-time calculation of subtotal, tax, and final total amounts.
+
+3. Authentication Flow
+Interactive Login & Sign-Up Forms: Built using Formik and validated with Yup.
+
+On-Submit Validation: Error messaging is suppressed during active typing and input blur, triggering strictly upon submit button click.
+
+Animated Hero Banner & Vertical Navigation: Smooth transitions between Auth modes using Framer Motion alongside a customized vertical BottomNavigation bar.
+
+Tech Stack
+React.js - Core frontend library
+
+Material-UI (MUI v6) - Base UI component toolkit and RTL layout engine
+
+GSAP (GreenSock) - High-performance animations on the Home Page
+
+Formik - Form state management
+
+Yup - Schema-based form validation
+
+Framer Motion - Page transitions and UI state animations
